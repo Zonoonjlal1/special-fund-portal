@@ -1,0 +1,242 @@
+import { Language } from '../types';
+
+export const TRANSLATIONS: Record<Language, Record<string, string>> = {
+  ar: {
+    // Brand & Header
+    orgTitle: 'الصندوق الخاص للتأمين الاجتماعي للعاملين بالقوات المسلحة',
+    orgSubtitle: 'البوابة الاستثمارية والمؤسسية القومية - السودان',
+    shortName: 'صندوق التأمين الاجتماعي',
+    navHome: 'الرئيسية',
+    navPortfolio: 'محفظة الاستثمار والشركات',
+    navAbout: 'النشأة والحوكمة',
+    navPartnerships: 'الشراكات الاستراتيجية',
+    navContact: 'اتصل بنا والاتصال المؤسسي',
+    searchPlaceholder: 'ابحث عن شركة، قطاع استثماري، أو مشروع...',
+    langSwitch: 'English',
+    downloadBrief: 'تحميل النبذة التعريفية 2026م',
+    viewBrief: 'عرض وثيقة الصندوق 2026',
+
+    // Hero
+    heroBadge: 'مؤسسة سيادية استثمارية ولوجستية | قرار جمهوري رقم (120) لسنة 2007م',
+    heroTitle: 'الذراع الاستثماري والحاضنة الاقتصادية الشاملة',
+    heroDescription: 'تنمية واستدامة الأصول الاستراتيجية لتأمين الاحتياجات اللوجستية للقوات المسلحة، وترسيخ الضمان الاجتماعي والرفاه الوظيفي لمنسوبيه وأسرهم، وتعزيز الاقتصاد الوطني.',
+    explorePortfolio: 'استكشف محفظتنا الاستثمارية',
+    contactUs: 'تواصل مع العلاقات الاستثمارية',
+    statDecree: 'القرار الجمهوري',
+    statDecreeVal: 'رقم 120 لسنة 2007',
+    statSectors: 'القطاعات الاستثمارية',
+    statSectorsVal: '13 قطاع حيوي',
+    statSubsidiaries: 'الشركات والمؤسسات',
+    statSubsidiariesVal: '+30 كيان اقتصادي',
+    statReach: 'النطاق الشامل',
+    statReachVal: 'دولي ومحلي',
+
+    // Home Sections
+    mandateTitle: 'النشأة والتأسيس والرسالة الوطنية',
+    mandateSubtitle: 'بموجب القرار الجمهوري رقم (120) لعام 2007م، حاز الصندوق على الشخصية الاعتبارية والذمة المالية المستقلة لدعم القوات المسلحة والتنمية الاقتصادية.',
+    readMoreMandate: 'تفاصيل الحوكمة والقرار',
+    
+    sectorsHeading: 'القطاعات الاستثمارية الشاملة',
+    sectorsSubheading: 'محفظة متنوعة متوازنة تغطي كافة ركائز البنية التحتية والإنتاجية الوطنية',
+    viewSectorCompanies: 'عرض شركات القطاع',
+    allSectors: 'جميع القطاعات (13)',
+
+    featuredCompaniesTitle: 'أبرز الشراكات والاستثمارات الاستراتيجية',
+    featuredCompaniesSubtitle: 'كيانات اقتصادية ومصرفية وتأمينية تقود الأسواق السودانية والإقليمية',
+    visitWebsite: 'زيارة الموقع الرسمي',
+    viewCompanyDetails: 'التفاصيل الاستثمارية',
+
+    turkeyPartnerTitle: 'الشراكة الاستراتيجية الدولية (جمهورية تركيا)',
+    turkeyPartnerSubtitle: 'تعزيز التعاون الاقتصادي وتبادل الخبرات الاستثمارية والتكنولوجية مع المؤسسات النظيرة',
+    turkeyPartnerDesc: 'يسعى الصندوق لترسيخ التحالفات الاقتصادية واللوجستية مع كبرى الشركات والمؤسسات السيادية بدولة تركيا الشقيقة، مستفيداً من أصوله الثابتة والمتحركة في فتح آفاق تنموية مشتركة.',
+    explorePartnerships: 'استكشف رؤية الشراكة الدولية',
+
+    // Portfolio Page
+    portfolioPageTitle: 'محفظة الشركات التابعة والشراكات الاستراتيجية',
+    portfolioPageSubtitle: 'استكشف جميع الشركات والمؤسسات المملوكة للصندوق والمصنفة حسب القطاعات الاقتصادية',
+    searchFilterTitle: 'التصفية والبحث السريع',
+    filterAll: 'الكل',
+    ownershipLabel: 'طبيعة الملكية',
+    websiteAvailable: 'رابط رسمي متاح',
+    noCompaniesFound: 'لم يتم العثور على شركات تطابق البحث.',
+    resetFilters: 'إعادة ضبط التصفية',
+
+    // About & Governance Page
+    aboutPageTitle: 'النشأة، الركائز والحوكمة المؤسسية',
+    aboutPageSubtitle: 'المرجعية القانونية بالقرار الجمهوري رقم 120 لسنة 2007م وأهداف التكافل الاجتماعي',
+    decreeCardTitle: 'نص القرار الجمهوري رقم (120) لعام 2007م',
+    legalPersonalityTitle: 'الصفة الشخصية الاعتبارية والتعاقدية',
+    legalPersonalityDesc: 'منح القرار الصندوق الصفة الشخصية الاعتبارية والتعاقدية وخاتماً عاماً والحق في الدخول في مختلف المشروعات والشراكات الاستراتيجية داخل وخارج السودان.',
+    threePillarsTitle: 'الركائز الاستراتيجية الثلاث',
+    pillar1Title: 'الدعم اللوجستي العسكري',
+    pillar1Desc: 'توفير الاحتياجات اللوجستية وتأمين سلاسل الإمداد الاستراتيجية للقوات المسلحة بالخدمة المعاش.',
+    pillar2Title: 'الضمان والتكافل الاجتماعي',
+    pillar2Desc: 'تقديم خدمات التعليم، الصحة، الإيواء، وتحسين بيئة العمل وتحقيق الرضا الوظيفي لمنسوبي القوات المسلحة وأسرهم.',
+    pillar3Title: 'الحاضنة الاستثمارية والتنمية',
+    pillar3Desc: 'إدارة أصول اقتصادية ثابتة ومتحركة والدخول في شراكات استثمارية ذات عائد مادي ومعنوي للوطن.',
+
+    // Strategic Partnerships Page
+    partnershipPageTitle: 'التحالفات الدولية والشراكة مع تركيا',
+    partnershipPageSubtitle: 'بناء جسور الاستثمار والتنمية مع المؤسسات النظيرة بدولة تركيا الشقيقة',
+    turkeyPillar1: 'الاستثمار الصناعي واللوجستي المشترك',
+    turkeyPillar1Desc: 'تطوير خطوط الإنتاج والطباعة والغزل والنسيج والصناعات الهندسية والتعدينية.',
+    turkeyPillar2: 'نقل التقانة والحلول الزراعية والحيوانية',
+    turkeyPillar2Desc: 'الاستفادة من التكنولوجيا التركية الحديثة في الري المحوري، التصنيع الغذائي، وصوامع التخزين.',
+    turkeyPillar3: 'التطوير العقاري والبنية التحتية',
+    turkeyPillar3Desc: 'مشاريع التشييد والإسكان وتطوير المناطق الاقتصادية والخدمية.',
+
+    // Contact Page
+    contactPageTitle: 'تواصل معنا والعلاقات الاستثمارية',
+    contactPageSubtitle: 'قنوات التواصل المؤسسي الرسمي، الاستفسارات والاستثمار',
+    formTitle: 'نموذج التواصل المؤسسي',
+    fullName: 'الاسم الكامل',
+    emailAddress: 'البريد الإلكتروني',
+    phoneNumber: 'رقم الهاتف / الواتساب',
+    inquiryType: 'نوع الاستفسار',
+    inquiryInvestment: 'فرص استثمارية وشراكات',
+    inquirySuppliers: 'تسجيل الموردين والعقود',
+    inquirySocial: 'استفسار خدمات التأمين الاجتماعي للمنسوبين',
+    inquiryMedia: 'الاستعلام الإعلامي والصحفي',
+    inquiryGeneral: 'استفسار عام',
+    message: 'نص الرسالة',
+    sendMessage: 'إرسال الرسالة الرسمية',
+    successMsg: 'تم إرسال رسالتكم بنجاح. سيقوم فريق العلاقات المؤسسية بالرد في أقرب وقت.',
+    hqAddressTitle: 'المقر الرئيسي والمكاتب',
+    hqAddressDetail: 'جمهورية السودان - الخرطوم - الشارع الرئيسي، مجمع الإدارة العامة لصندوق التأمين الاجتماعي',
+    workingHoursTitle: 'ساعات العمل الرسمية',
+    workingHoursDetail: 'الأحد - الخميس: 8:00 صباحاً - 3:30 مساءً',
+    contactEmails: 'البريد الإلكتروني الموحد',
+    contactPhone: 'الهاتف الموحد والبدالة',
+
+    // Modal Document Brief
+    docModalTitle: 'وثيقة التعريف الرسمية 2026م',
+    close: 'إغلاق',
+    printDocument: 'طباعة الوثيقة',
+
+    // Footer
+    footerDesc: 'الصندوق الخاص للتأمين الاجتماعي للعاملين بالقوات المسلحة مؤسسة اقتصادية واستثمارية حائزة على الشخصية الاعتبارية بموجب القرار الجمهوري رقم (120) لسنة 2007م.',
+    quickLinks: 'روابط سريعة',
+    officialAccreditation: 'الاعتماد المؤسسي الرسمي',
+    copyrights: '© 2026 الصندوق الخاص للتأمين الاجتماعي للعاملين بالقوات المسلحة. جميع الحقوق محفوظة.',
+    privacyTerms: 'الخصوصية والأحكام القانونية',
+  },
+  en: {
+    // Brand & Header
+    orgTitle: 'Special Fund for Social Security of Armed Forces Employees',
+    orgSubtitle: 'National Corporate & Investment Portal - Republic of Sudan',
+    shortName: 'Armed Forces Security Fund',
+    navHome: 'Home',
+    navPortfolio: 'Investment Portfolio',
+    navAbout: 'Mandate & Governance',
+    navPartnerships: 'Strategic Partnerships',
+    navContact: 'Contact & IR',
+    searchPlaceholder: 'Search company, sector, or investment asset...',
+    langSwitch: 'العربية',
+    downloadBrief: 'Download 2026 Profile Brief',
+    viewBrief: 'View Official 2026 Document',
+
+    // Hero
+    heroBadge: 'Sovereign Investment & Logistics Institution | Presidential Decree No. (120) of 2007',
+    heroTitle: 'The Comprehensive Economic Incubator & Investment Arm',
+    heroDescription: 'Developing and sustaining strategic assets to secure logistical requirements for the Armed Forces, establishing social security and workplace satisfaction for personnel and their families, and powering national economic growth.',
+    explorePortfolio: 'Explore Investment Portfolio',
+    contactUs: 'Contact Investor Relations',
+    statDecree: 'Presidential Decree',
+    statDecreeVal: 'No. 120 of 2007',
+    statSectors: 'Investment Sectors',
+    statSectorsVal: '13 Core Sectors',
+    statSubsidiaries: 'Subsidiaries & Holdings',
+    statSubsidiariesVal: '30+ Economic Entities',
+    statReach: 'Global & Local Footprint',
+    statReachVal: 'Domestic & Strategic',
+
+    // Home Sections
+    mandateTitle: 'Establishment, History & National Mission',
+    mandateSubtitle: 'Established by Presidential Decree No. (120) of 2007 with independent legal personality and corporate capacity to support the Armed Forces and economic advancement.',
+    readMoreMandate: 'Governance & Decree Details',
+
+    sectorsHeading: 'Comprehensive Investment Sectors',
+    sectorsSubheading: 'A balanced multi-sector portfolio driving infrastructure, security, and industrial production',
+    viewSectorCompanies: 'View Sector Entities',
+    allSectors: 'All 13 Sectors',
+
+    featuredCompaniesTitle: 'Featured Anchor Holdings & Subsidiaries',
+    featuredCompaniesSubtitle: 'Leading banking, insurance, agricultural, and industrial flagships across national & regional markets',
+    visitWebsite: 'Visit Official Website',
+    viewCompanyDetails: 'Investment Profile',
+
+    turkeyPartnerTitle: 'Strategic International Partnership (Republic of Turkey)',
+    turkeyPartnerSubtitle: 'Fostering bilateral economic collaboration, industrial technology transfer, and joint investment with counterpart institutions',
+    turkeyPartnerDesc: 'The Fund pursues smart strategic alliances with counterpart sovereign and industrial entities in sisterly Turkey, leveraging its robust fixed and liquid assets to drive mutual economic advancement.',
+    explorePartnerships: 'Explore International Vision',
+
+    // Portfolio Page
+    portfolioPageTitle: 'Investment Portfolio & Subsidiaries Directory',
+    portfolioPageSubtitle: 'Explore all corporate entities, flagships, and joint ventures categorized across 13 economic sectors',
+    searchFilterTitle: 'Search & Rapid Filtering',
+    filterAll: 'All Sectors',
+    ownershipLabel: 'Ownership Structure',
+    websiteAvailable: 'Official Website Available',
+    noCompaniesFound: 'No entities match your search criteria.',
+    resetFilters: 'Reset Filters',
+
+    // About & Governance Page
+    aboutPageTitle: 'Mandate, Strategic Pillars & Governance',
+    aboutPageSubtitle: 'Legal foundations under Presidential Decree No. 120/2007 and social solidarity objectives',
+    decreeCardTitle: 'Presidential Decree No. (120) of 2007 Text',
+    legalPersonalityTitle: 'Legal Corporate Personality & Capacity',
+    legalPersonalityDesc: 'Granted independent corporate personality, legal standing, seal, and full rights to form strategic domestic and international joint ventures.',
+    threePillarsTitle: 'Three Core Strategic Pillars',
+    pillar1Title: 'Military Logistical Security',
+    pillar1Desc: 'Securing strategic supply chains, equipment, and logistics for Armed Forces personnel during service and retirement.',
+    pillar2Title: 'Social Security & Solidarity',
+    pillar2Desc: 'Delivering education, healthcare, housing, and workplace satisfaction for Armed Forces families.',
+    pillar3Title: 'Economic Incubation & Growth',
+    pillar3Desc: 'Managing substantial fixed and mobile economic assets and generating financial & strategic returns for the nation.',
+
+    // Strategic Partnerships Page
+    partnershipPageTitle: 'International Alliances & Turkey Partnership',
+    partnershipPageSubtitle: 'Building bridges of investment and industrial growth with counterpart institutions in Turkey',
+    turkeyPillar1: 'Joint Industrial & Logistics Ventures',
+    turkeyPillar1Desc: 'Upgrading production lines, textile manufacturing, printing, and heavy engineering.',
+    turkeyPillar2: 'Technology Transfer & Agribusiness',
+    turkeyPillar2Desc: 'Leveraging Turkish agricultural innovations, center-pivot irrigation, food processing, and grain silos.',
+    turkeyPillar3: 'Real Estate & Infrastructure Development',
+    turkeyPillar3Desc: 'Executing major housing, urban development, and commercial infrastructure projects.',
+
+    // Contact Page
+    contactPageTitle: 'Contact & Investor Relations',
+    contactPageSubtitle: 'Official corporate channels, business inquiries, and supplier registration',
+    formTitle: 'Institutional Contact Form',
+    fullName: 'Full Name',
+    emailAddress: 'Email Address',
+    phoneNumber: 'Phone / WhatsApp',
+    inquiryType: 'Inquiry Category',
+    inquiryInvestment: 'Investment Opportunities & Partnerships',
+    inquirySuppliers: 'Supplier & Contractor Registration',
+    inquirySocial: 'Social Security Services Inquiry',
+    inquiryMedia: 'Media & Press Inquiry',
+    inquiryGeneral: 'General Inquiry',
+    message: 'Your Message',
+    sendMessage: 'Submit Official Request',
+    successMsg: 'Your message has been submitted successfully. Our corporate relations office will respond promptly.',
+    hqAddressTitle: 'Headquarters & Executive Offices',
+    hqAddressDetail: 'Republic of Sudan - Khartoum - Main Boulevard, Social Security General Administration Complex',
+    workingHoursTitle: 'Official Working Hours',
+    workingHoursDetail: 'Sunday - Thursday: 8:00 AM - 3:30 PM (CAT)',
+    contactEmails: 'Corporate Email Communications',
+    contactPhone: 'Unified Telephone Exchange',
+
+    // Modal Document Brief
+    docModalTitle: 'Official 2026 Profile Brief Document',
+    close: 'Close',
+    printDocument: 'Print Document',
+
+    // Footer
+    footerDesc: 'The Special Fund for Social Security of Armed Forces Employees is a sovereign economic and investment institution with legal corporate personality established under Presidential Decree No. (120) of 2007.',
+    quickLinks: 'Quick Navigation',
+    officialAccreditation: 'Official Institutional Accreditation',
+    copyrights: '© 2026 Special Fund for Social Security of Armed Forces Employees. All rights reserved.',
+    privacyTerms: 'Privacy & Legal Notice',
+  }
+};

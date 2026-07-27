@@ -1,0 +1,6 @@
+{
+  "name": "Special Fund for Social Security - Armed Forces",
+  "description": "Institutional corporate web portal and investment showcase for the Special Fund for Social Security of Armed Forces Employees (الصندوق الخاص للتأمين الاجتماعي للعاملين بالقوات المسلحة).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
